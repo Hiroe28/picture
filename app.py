@@ -3,7 +3,7 @@ from PIL import Image
 from io import BytesIO
 
 # アプリのタイトルを設定
-st.title('画像縮小アプリ')
+st.title('画像縮小するアプリ')
 
 # 画像アップロード用のウィジェットを作成
 uploaded_file = st.file_uploader("画像をアップロードしてください", type=['jpg', 'jpeg', 'png'])
